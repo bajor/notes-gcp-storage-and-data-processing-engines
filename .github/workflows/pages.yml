@@ -17,7 +17,7 @@ jobs:
   build:
     permissions:
       contents: read
-    uses: bajor/notes-website-factory-workflow/.github/workflows/build-pdf-site.yml@main
+    uses: bajor/notes-website-factory-workflow/.github/workflows/build-pdf-site.yml@fix/webkit-close-zoom-culling
     with:
       site-title: GCP DE
 
